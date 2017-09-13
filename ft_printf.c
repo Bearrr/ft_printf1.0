@@ -6,13 +6,12 @@
 /*   By: ireva <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/15 13:44:49 by ireva             #+#    #+#             */
-/*   Updated: 2017/09/13 16:12:13 by ireva            ###   ########.fr       */
+/*   Updated: 2017/09/13 17:15:57 by ireva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdarg.h>
 #include <unistd.h>
-#include <stdio.h>
 #include <string.h>
 #include "ft_printf.h"
 
