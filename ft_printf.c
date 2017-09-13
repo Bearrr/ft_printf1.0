@@ -6,12 +6,11 @@
 /*   By: ireva <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/15 13:44:49 by ireva             #+#    #+#             */
-/*   Updated: 2017/09/13 12:30:45 by ireva            ###   ########.fr       */
+/*   Updated: 2017/09/13 16:12:13 by ireva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdarg.h>
-#include "libft.h"
 #include <unistd.h>
 #include <stdio.h>
 #include <string.h>

@@ -6,11 +6,10 @@
 /*   By: ireva <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/02 16:01:46 by ireva             #+#    #+#             */
-/*   Updated: 2017/03/10 16:03:05 by ireva            ###   ########.fr       */
+/*   Updated: 2017/09/13 16:12:38 by ireva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 #include "ft_printf.h"
 
 int			int_lenth(char *str, int *i, t_flags *flag, char *format)

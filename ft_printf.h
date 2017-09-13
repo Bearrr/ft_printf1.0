@@ -6,7 +6,7 @@
 /*   By: ireva <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/02/02 15:13:58 by ireva             #+#    #+#             */
-/*   Updated: 2017/09/13 12:25:29 by ireva            ###   ########.fr       */
+/*   Updated: 2017/09/13 16:14:53 by ireva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
 # define RESET "\x1B[0m"
 
 # include <stdarg.h>
-# include "libft.h"
 # include <unistd.h>
 # include <stdio.h>
 # include <string.h>
@@ -40,6 +39,7 @@ typedef struct	s_flags
 	char		*letter;
 }				t_flags;
 
+int				ft_printf(char *format, ...);
 char			*ft_itoa_base(intmax_t nbr, int base, int flag);
 char			*ft_itoa(int nbr);
 char			*my_ft_itoa(long int n, int flag);
@@ -94,5 +94,11 @@ int				no_type(char *format, int x, t_flags flag, int *i);
 int				wr_rest(int *i, char *format, int f, int x);
 int				type_b(uintmax_t x, t_flags flag);
 int				use_b_flags(t_flags flag, int f, va_list ap);
+size_t			ft_strlen(const char *str);
+int				ft_strcmp(const char *s1, const char *s2);
+char			*ft_strchr(const char *s, int c);
+void			ft_putchar(char c);
+char			*ft_strnew(size_t size);
+int				ft_atoi(const char *str);
 
 #endif

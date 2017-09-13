@@ -6,7 +6,7 @@
 /*   By: ireva <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/03/09 17:23:54 by ireva             #+#    #+#             */
-/*   Updated: 2017/03/09 17:47:57 by ireva            ###   ########.fr       */
+/*   Updated: 2017/09/13 16:02:58 by ireva            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -89,4 +89,14 @@ int				my_ft_strchr(const char *s, int c, int n)
 		counter++;
 	}
 	return (0);
+}
+
+size_t			ft_strlen(const char *str)
+{
+	size_t i;
+
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
 }

@@ -6,7 +6,7 @@
 #    By: ireva <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/03/02 16:56:28 by ireva             #+#    #+#              #
-#    Updated: 2017/09/13 12:54:46 by ireva            ###   ########.fr        #
+#    Updated: 2017/09/13 16:15:24 by ireva            ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -25,12 +25,12 @@ OBJECTS =						\
 			./work_with_c.o		\
 			./work_with_o.o		\
 			./work_with_s.o		\
-			./ft_atoi.o			\
 			./lib_func.o		\
 			./checkers.o		\
 			./work_with_u.o		\
 			./work_with_x.o		\
 			./my_lib_func.o		\
+			./my_lib_func2.o	\
 			./work_with_p.o		\
 			./work_with_b.o				
 all : $(NAME)
