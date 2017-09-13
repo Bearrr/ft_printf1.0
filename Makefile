@@ -6,7 +6,7 @@
 #    By: ireva <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2017/03/02 16:56:28 by ireva             #+#    #+#              #
-#    Updated: 2017/09/13 16:15:24 by ireva            ###   ########.fr        #
+#    Updated: 2017/09/13 16:50:26 by ireva            ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -30,7 +30,6 @@ OBJECTS =						\
 			./work_with_u.o		\
 			./work_with_x.o		\
 			./my_lib_func.o		\
-			./my_lib_func2.o	\
 			./work_with_p.o		\
 			./work_with_b.o				
 all : $(NAME)
